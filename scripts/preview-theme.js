@@ -62,7 +62,7 @@ async function run() {
     let iconColor = colors[1];
     let textColor = colors[2];
     let bgColor = colors[3];
-    const url = `https://github-readme-stats.vercel.app/api?username=praneybehl&title_color=${titleColor}&icon_color=${iconColor}&text_color=${textColor}&bg_color=${bgColor}&show_icons=true`;
+    const url = `https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&title_color=${titleColor}&icon_color=${iconColor}&text_color=${textColor}&bg_color=${bgColor}&show_icons=true`;
 
     await octokit.issues.createComment({
       owner: "praneybehl",

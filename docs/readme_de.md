@@ -68,7 +68,7 @@ Kopiere einfach folgendes in dein Markdown und das wars. Echt simpel!
 Passe den Wert des URL-Parameters `?username=` so an, dass dort dein GitHub Nutzername steht.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 _Hinweis: Die Berechnung des Ranges basiert auf den jeweiligen Benutzerstatistiken, siehe [src/calculateRank.js](../src/calculateRank.js)_
@@ -80,7 +80,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 > Optionen: `&hide=["stars","commits","prs","issues","contribs"]`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=["contribs","prs"])
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=["contribs","prs"])
 ```
 
 ### Symbole anzeigen
@@ -88,7 +88,7 @@ Um eine spezifische Statistik auszublenden, kann dem Query-Parameter `?hide=` ei
 Um Symbole anzuzeigen kann der URL-Paramter `show_icons=true` wie folgt verwendet werden:
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true)
 ```
 
 ### Erscheinungsbild/Themes
@@ -98,7 +98,7 @@ Mithilfe der eingebauten Themes kann das Aussehen der Karten verändern werden o
 Benutze den `?theme=THEME_NAME`-Parameter wie folgt :-
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 ```
 
 #### Alle eingebauten Themes :-
@@ -173,16 +173,16 @@ Füge diesen Code in deine Readme-Datei ein und passe die Links an.
 Endpunkt: `api/pin?username=praneybehl&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Beispiele
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 
 Benutze die [show_owner](#anpassungenpersonalisierung) Variable, um den Nutzernamen des Repo Eigentümers anzuzeigen.
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
 
 # Top Programmiersprachen-Karte
 
@@ -197,7 +197,7 @@ Füge diesen Code in deine Readme-Datei ein und passe die Links an.
 Endpunkt: `api/top-langs?username=praneybehl`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Verbirg einzelne Sprachen
@@ -205,7 +205,7 @@ Endpunkt: `api/top-langs?username=praneybehl`
 Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sprachen auszublenden.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Kompaktes Sprachen-Karte Layout
@@ -213,16 +213,16 @@ Du kannst den `?hide=language1,language2` URL-Parameter benutzen, um einzelne Sp
 Du kannst die `&layout=compact` Option nutzen, um das Karten Design zu ändern.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Beispiel
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 - Kompaktes Layout
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -230,41 +230,41 @@ Du kannst die `&layout=compact` Option nutzen, um das Karten Design zu ändern.
 
 - Default
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)
 
 - Ausblenden bestimmter Statistiken
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=["contribs","issues"])
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=["contribs","issues"])
 
 - Symbole anzeigen
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=["issues"]&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=["issues"]&show_icons=true)
 
 - Alle Beiträge anzeigen
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&include_all_commits=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&include_all_commits=true)
 
 - Erscheinungsbild/Themes
 
 Wähle Eines von den [Standard-Themes](#themes)
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 
 - Farbverlauf
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Statistiken-Karte anpassen
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo-Karte anpassen
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top Programmiersprachen
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -274,10 +274,10 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 ```md
 <a href="https://github.com/praneybehl/my-profile-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/praneybehl/convoychat">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=convoychat" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=convoychat" />
 </a>
 ```
 
@@ -285,7 +285,7 @@ Wähle Eines von den [Standard-Themes](#themes)
 
 #### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Da die GitHub API nur 5 Tsd Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://github-readme-stats.vercel.app/api` dieses Limit erreicht.
+Da die GitHub API nur 5 Tsd Aufrufe pro Stunde zulässt, kann es passieren, dass meine `https://my-profile-stats.praneybehl.vercel.app.app/api` dieses Limit erreicht.
 Wenn du es auf deinem eigenen Vercel-Server hostest, brauchst du dich darum nicht zu kümmern. Klicke auf den Deploy-Knopf um loszulegen!
 
 Hinweis: Seit [#58](https://github.com/praneybehl/my-profile-stats/pull/58) sollte es möglich sein, mehr als 5 Tsd Aufrufe pro Stunde ohne Downtimes zu verkraften :D

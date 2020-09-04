@@ -69,7 +69,7 @@ Per creare una Card con le statistiche GitHub, copia e incolla nel tuo file mark
 Ricorda di cambiare il valore `?username=` con il tuo nome utente GitHub.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 _Nota: I punteggi sono calcolati sulla base delle tue statistiche, dai un'occhiata a [src/calculateRank.js](./src/calculateRank.js) per ulteriori informazioni_
@@ -81,7 +81,7 @@ Per nascondere qualche dato, puoi aggiungere i parametri `?hide=`, separando i v
 > Opzioni: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,prs)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,prs)
 ```
 
 ### Includere i contributi privati nel computo totale
@@ -93,7 +93,7 @@ _Nota: se hai deciso di fare il deploy del progetto, i contributi privati verran
 > Opzioni: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&count_private=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&count_private=true)
 ```
 
 ### Mostrare le icone
@@ -101,7 +101,7 @@ _Nota: se hai deciso di fare il deploy del progetto, i contributi privati verran
 Per abilitare le icone, puoi specificare `show_icons=true`, ad esempio:
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true)
 ```
 
 ### Temi
@@ -111,7 +111,7 @@ Esistono alcuni temi predefiniti coi quali è possibile personalizzare l'aspetto
 Usa il parametro `?theme=NOME_TEMA` in questo modo:-
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 ```
 
 #### Galleria dei temi:-
@@ -183,16 +183,16 @@ Copia e incolla il seguente codice, premurandoti di cambiare il link.
 Endpoint: `api/pin?username=praneybehl&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Demo
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 
 Usa la variabile [show_owner](#personalizzazione) per includere il nome utente del proprietario
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
 
 # Top Languages Card
 
@@ -207,7 +207,7 @@ Copia e incolla nel tuo file README, cambiando i link.
 Endpoint: `api/top-langs?username=praneybehl`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Nascondi linguaggi specifici
@@ -215,7 +215,7 @@ Endpoint: `api/top-langs?username=praneybehl`
 Puoi utilizzare il parametro `?hide=linguaggio1,linguaggio2` per nascondere alcuni linguaggi.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Layout compatto
@@ -223,16 +223,16 @@ Puoi utilizzare il parametro `?hide=linguaggio1,linguaggio2` per nascondere alcu
 Puoi utilizzare l'opzione `&layout=compact` per cambiare l'aspetto della card.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### Demo
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 - Layout Compatto
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -240,41 +240,41 @@ Puoi utilizzare l'opzione `&layout=compact` per cambiare l'aspetto della card.
 
 - Default
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)
 
 - Nascondere dati specifici
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,issues)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,issues)
 
 - Mostrare le icone
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=issues&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=issues&show_icons=true)
 
 - Includere tutti i commit
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&include_all_commits=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&include_all_commits=true)
 
 - Temi
 
 Scegli uno dei [temi di default](#themes)
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 
 - Gradiente
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - Personalizzare le Stats Card
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Personalizzare le Repo Card
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Linguaggi più usati
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -284,10 +284,10 @@ Per allineare le card una accanto all'altra, puoi adottare questo approccio:
 
 ```md
 <a href="https://github.com/praneybehl/my-profile-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
+  <img align="center" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/praneybehl/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=convoychat" />
+  <img align="center" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=convoychat" />
 </a>
 ```
 
@@ -295,7 +295,7 @@ Per allineare le card una accanto all'altra, puoi adottare questo approccio:
 
 #### [Guarda questo Video Tutorial, realizzato da @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Since the GitHub API only allows 5k requests per hour, it is possible that my `https://github-readme-stats.vercel.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
+Since the GitHub API only allows 5k requests per hour, it is possible that my `https://my-profile-stats.praneybehl.vercel.app.app/api` could hit the rate limiter. If you host it on your own Vercel server, then you don't have to worry about anything. Click on the deploy button to get started!
 
 NOTE: Since [#58](https://github.com/praneybehl/my-profile-stats/pull/58) we should be able to handle more than 5k requests and have no issues with downtime :D
 

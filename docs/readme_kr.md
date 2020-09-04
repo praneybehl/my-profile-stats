@@ -67,7 +67,7 @@
 `?username=` 영역의 값은 당신의 Github 계정의 이름으로 바꿔주세요.
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 _참고: 순위는 사용자의 통계를 기반으로 계산됩니다. [src/calculateRank.js](../src/calculateRank.js) 참고_
@@ -79,7 +79,7 @@ _참고: 순위는 사용자의 통계를 기반으로 계산됩니다. [src/cal
 > 예시: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,prs)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,prs)
 ```
 
 ### 총 커밋 수에 private 컨트리뷰트 개수 추가하기
@@ -91,7 +91,7 @@ _참고: 이 프로젝트를 직접 배포하는 경우 private 컨트리뷰트�
 > 예시: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&count_private=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&count_private=true)
 ```
 
 ### 아이콘 표기
@@ -99,7 +99,7 @@ _참고: 이 프로젝트를 직접 배포하는 경우 private 컨트리뷰트�
 아이콘을 활성화하려면 다음과 같이 `show_icons=true` 쿼리 파라미터를 사용하세요.
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true)
 ```
 
 ### 테마
@@ -109,7 +109,7 @@ _참고: 이 프로젝트를 직접 배포하는 경우 private 컨트리뷰트�
 아래와 같이 `?theme=THEME_NAME` 파라미터를 사용하세요. :-
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 ```
 
 #### 모든 내장된 테마 :-
@@ -174,16 +174,16 @@ GitHub extra pins을 사용하면 Github readme 프로필에 6개 이상의 저�
 Endpoint: `api/pin?username=praneybehl&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### 데모
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 
 [show_owner](#사용자정의) 값을 사용하여 저장소 소유자 이름을 포함할 수 있습니다.
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
 
 # 상위 언어 카드
 
@@ -198,7 +198,7 @@ _참고: Top languages는 사용자의 기술 수준을 나타내는 것이 아�
 Endpoint: `api/top-langs?username=praneybehl`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### 개별 언어 숨기기
@@ -206,7 +206,7 @@ Endpoint: `api/top-langs?username=praneybehl`
 `?hide=language1,language2` 파라미터를 사용하여 특정 언어를 숨길 수 있습니다.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### 컴팩트 언어 카드 레이아웃
@@ -214,16 +214,16 @@ Endpoint: `api/top-langs?username=praneybehl`
 `&layout=compact` 파라미터를 사용하여 카드의 디자인을 변경할 수 있습니다.
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### 데모
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 - 컴팩트 레이아웃
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -231,37 +231,37 @@ Endpoint: `api/top-langs?username=praneybehl`
 
 - 기본 설정
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)
 
 - 특정 통계 숨김
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,issues)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,issues)
 
 - 아이콘 표기
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=issues&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=issues&show_icons=true)
 
 - 모든 커밋 표기
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&include_all_commits=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&include_all_commits=true)
 
 - 테마
 
 [default themes](#테마)에서 선택
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 
 - Stats 카드 사용자 정의
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - Repo 카드 사용자 정의
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - 상위 언어
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -271,10 +271,10 @@ Endpoint: `api/top-langs?username=praneybehl`
 
 ```md
 <a href="https://github.com/praneybehl/my-profile-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/praneybehl/convoychat">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=convoychat" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=convoychat" />
 </a>
 ```
 
@@ -282,7 +282,7 @@ Endpoint: `api/top-langs?username=praneybehl`
 
 #### [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
-Github API는 시간당 5k 요청만을 허용하기 때문에, 이 `https://github-readme-stats.vercel.app/api`이 제한에 도달할 수 있습니다.
+Github API는 시간당 5k 요청만을 허용하기 때문에, 이 `https://my-profile-stats.praneybehl.vercel.app.app/api`이 제한에 도달할 수 있습니다.
 물론 자신의 Vercel 서버에서 호스팅하는 것이라면 아무것도 걱정할 필요가 없습니다. 시작하려면 배포 버튼을 클릭하세요!
 
 참고: [#58](https://github.com/praneybehl/my-profile-stats/pull/58) 이슈 이후로는 5k 이상의 요청을 처리할 수 있게 되어, 다운 타임의 문제가 발생하지 않습니다 :D

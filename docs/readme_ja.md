@@ -70,7 +70,7 @@
 `?username=` の値は、あなたの GitHub アカウントのユーザー名に変更してください。
 
 ```md
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 _Note: カードに表示されるランクはユーザの統計情報に基づいて計算されています。詳しくは、[src/calculateRank.js](../src/calculateRank.js)をご覧ください。_
@@ -82,7 +82,7 @@ _Note: カードに表示されるランクはユーザの統計情報に基づ�
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,prs)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,prs)
 ```
 
 ### プライベートリポジトリへのコミットをカウントする
@@ -94,7 +94,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 > Options: `&count_private=true`
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&count_private=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&count_private=true)
 ```
 
 ### アイコンを表示する
@@ -102,7 +102,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 クエリパラメータ `?show_icons=true` を使用することで、アイコンの表示が有効になります。
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true)
 ```
 
 ### テーマの変更
@@ -112,7 +112,7 @@ _Note: このプロジェクトを自分でデプロイしている場合、デ�
 `?theme=THEME_NAME` は以下のように使います。
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 ```
 
 #### 内蔵テーマの一覧
@@ -186,16 +186,16 @@ GitHub extra pins を使うと、GitHub の readme プロフィールを使っ�
 エンドポイント: `api/pin?username=praneybehl&repo=github-readme-stats`
 
 ```md
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### デモ
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats)](https://github.com/praneybehl/my-profile-stats)
 
 リポジトリのオーナーのユーザー名を含める場合は、show_owner 変数を使用します。
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
+[![ReadMe Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats&show_owner=true)](https://github.com/praneybehl/my-profile-stats)
 
 # Top Languages Card
 
@@ -210,7 +210,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 エンドポイント: `api/top-langs?username=praneybehl`
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### 特定の言語を隠す
@@ -218,7 +218,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `?hide=language1,language2` 使用することで、特定の言語を非表示にすることができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&hide=javascript,html)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### レイアウトをコンパクトにする
@@ -226,16 +226,16 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 クエリパラメータ `&layout=compact` を使用することで、カードのデザインを変更することができます。
 
 ```md
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 ```
 
 ### デモ
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 - Compact layout の場合
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl&layout=compact)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -243,41 +243,41 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 - デフォルト
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl)
 
 - 特定の統計情報を隠す
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=contribs,issues)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=contribs,issues)
 
 - アイコンを表示する
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&hide=issues&show_icons=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&hide=issues&show_icons=true)
 
 - コミット数の総数をカウントする
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&include_all_commits=true)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&include_all_commits=true)
 
 - テーマの変更
 
 任意の[テーマ](#themes)を選択できます。
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&show_icons=true&theme=radical)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&show_icons=true&theme=radical)
 
 - グラデーション
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api?username=praneybehl&bg_color=30,e96443,904e95&title_color=fff&text_color=fff)
 
 - stats card のカスタマイズ
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
+![Anurag's github stats](https://my-profile-stats.praneybehl.vercel.app.app/api/?username=praneybehl&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 
 - repo card のカスタマイズ
 
-![Customized Card](https://github-readme-stats.vercel.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
+![Customized Card](https://my-profile-stats.praneybehl.vercel.app.app/api/pin?username=praneybehl&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515)
 
 - Top languages
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
+[![Top Langs](https://my-profile-stats.praneybehl.vercel.app.app/api/top-langs/?username=praneybehl)](https://github.com/praneybehl/my-profile-stats)
 
 ---
 
@@ -287,10 +287,10 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 ```md
 <a href="https://github.com/praneybehl/my-profile-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=github-readme-stats" />
 </a>
 <a href="https://github.com/praneybehl/convoychat">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/pin/?username=praneybehl&repo=convoychat" />
+  <img align="left" src="https://my-profile-stats.praneybehl.vercel.app.app/api/pin/?username=praneybehl&repo=convoychat" />
 </a>
 ```
 
@@ -298,7 +298,7 @@ _NOTE: Top languages は、ユーザのスキルレベルを示すものでは�
 
 #### [@codeSTACKr によるチュートリアルはこちら](https://youtu.be/n6d4KHSKqGk?t=107)
 
-GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://github-readme-stats.vercel.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
+GitHub API は 1 時間あたり 5k リクエストしか受け付けていないので、私の `https://my-profile-stats.praneybehl.vercel.app.app/api` がレートリミッターを超えてしまう可能性があります。自分の Vercel サーバーでホストしているのであれば、何も心配する必要はありません。デプロイボタンをクリックして始めましょう！
 
 NOTE: [#58](https://github.com/praneybehl/my-profile-stats/pull/58) 以降は 5k 以上のリクエストに対応できるようになり、ダウンタイムの問題もなくなりました :smile:
 
